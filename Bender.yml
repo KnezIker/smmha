@@ -27,5 +27,3 @@ sources:
       - rtl/smmha_top.sv
       # Level 4
       - wrap/smmha_top_wrap.sv
-export_include_dirs:
-  - rtl  # Izvezi ovaj direktorijum drugim zavisnostima
