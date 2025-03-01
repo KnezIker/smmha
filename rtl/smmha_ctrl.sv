@@ -1,5 +1,5 @@
 /* 
- * mac_ctrl.sv
+ * smmha_ctrl.sv
  * Francesco Conti <fconti@iis.ee.ethz.ch>
  *
  * Copyright (C) 2018 ETH Zurich, University of Bologna
@@ -13,7 +13,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-import mac_package::*;
+import smmha_package::*;
 import hwpe_ctrl_package::*;
 
 module smmha_ctrl

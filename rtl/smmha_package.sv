@@ -1,5 +1,5 @@
 /*
- * mac_package.sv
+ * smmha_package.sv
  * Francesco Conti <fconti@iis.ee.ethz.ch>
  *
  * Copyright (C) 2018 ETH Zurich, University of Bologna
@@ -72,4 +72,4 @@ package smmha_package;
     FSM_TERMINATE
   } state_fsm_t;
 
-endpackage // mac_package
+endpackage // smmha_package

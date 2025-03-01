@@ -1,5 +1,5 @@
 /*
- * mac_engine.sv
+ * smmha_engine.sv
  * Francesco Conti <fconti@iis.ee.ethz.ch>
  *
  * Copyright (C) 2018 ETH Zurich, University of Bologna
@@ -134,4 +134,4 @@ module smmha_engine
     end
   end
   flags_o.cnt = r_cnt;
-endmodule // mac_engine
+endmodule // smmha_engine

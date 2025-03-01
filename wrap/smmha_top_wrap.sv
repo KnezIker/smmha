@@ -1,5 +1,5 @@
 /*
- * mac_top_wrap.sv
+ * smmha_top_wrap.sv
  * Francesco Conti <fconti@iis.ee.ethz.ch>
  *
  * Copyright (C) 2017 ETH Zurich, University of Bologna
@@ -85,7 +85,7 @@ module smmha_top_wrap
     .N_CORES ( N_CORES ),
     .MP      ( MP      ),
     .ID      ( ID      )
-  ) i_mac_top (
+  ) i_smmha_top (
     .clk_i       ( clk_i       ),
     .rst_ni      ( rst_ni      ),
     .test_mode_i ( test_mode_i ),
@@ -94,4 +94,4 @@ module smmha_top_wrap
     .periph      ( periph      )
   );
 
-endmodule // mac_top_wrap
+endmodule // smmha_top_wrap
