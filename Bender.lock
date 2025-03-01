@@ -1,0 +1,28 @@
+packages:
+  common_verification:
+    revision: null
+    version: null
+    source:
+      Path: /home/white/Documents/HDL/Project/pulpissimo/working_dir/common_verification
+    dependencies: []
+  hwpe-ctrl:
+    revision: null
+    version: null
+    source:
+      Path: /home/white/Documents/HDL/Project/pulpissimo/working_dir/hwpe-ctrl
+    dependencies:
+    - tech_cells_generic
+  hwpe-stream:
+    revision: null
+    version: null
+    source:
+      Path: /home/white/Documents/HDL/Project/pulpissimo/working_dir/hwpe-stream
+    dependencies:
+    - tech_cells_generic
+  tech_cells_generic:
+    revision: null
+    version: null
+    source:
+      Path: /home/white/Documents/HDL/Project/pulpissimo/working_dir/tech_cells_generic
+    dependencies:
+    - common_verification
