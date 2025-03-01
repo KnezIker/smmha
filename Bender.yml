@@ -1,7 +1,7 @@
 package:
-  name: hwpe-mac-engine
+  name: simple_mmha
   authors:
-    - "Francesco Conti <f.conti@unibo.it>"
+    - "Ivan Knežević <knez.iker@gmail.com>"
 
 dependencies:
   hwpe-stream: { git: "https://github.com/pulp-platform/hwpe-stream.git", version: 1.6.3 }
@@ -16,14 +16,14 @@ sources:
       # package. Files in level 1 only depend on files in level 0, files in level 2 on files in
       # levels 1 and 0, etc. Files within a level are ordered alphabetically.
       # Level 0
-      - rtl/mac_package.sv
+      - rtl/smmha_package.sv
       # Level 1
-      - rtl/mac_engine.sv
-      - rtl/mac_fsm.sv
-      - rtl/mac_streamer.sv
+      - rtl/smmha_engine.sv
+      - rtl/smmha_fsm.sv
+      - rtl/smmha_streamer.sv
       # Level 2
-      - rtl/mac_ctrl.sv
+      - rtl/smmha_ctrl.sv
       # Level 3
-      - rtl/mac_top.sv
+      - rtl/smmha_top.sv
       # Level 4
-      - wrap/mac_top_wrap.sv
+      - wrap/smmha_top_wrap.sv

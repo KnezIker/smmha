@@ -1,15 +1,15 @@
-hw-mac-engine:
+simple_mmha:
   incdirs : [
     rtl
   ]
   files : [
-    rtl/mac_package.sv,
-    rtl/mac_fsm.sv,
-    rtl/mac_ctrl.sv,
-    rtl/mac_streamer.sv,
-    rtl/mac_engine.sv,
-    rtl/mac_top.sv,
-    wrap/mac_top_wrap.sv
+    rtl/smmha_package.sv,
+    rtl/smmha_fsm.sv,
+    rtl/smmha_ctrl.sv,
+    rtl/smmha_streamer.sv,
+    rtl/smmha_engine.sv,
+    rtl/smmha_top.sv,
+    wrap/smmha_top_wrap.sv
   ]
   vlog_opts : [
     "-L hwpe_ctrl_lib",
